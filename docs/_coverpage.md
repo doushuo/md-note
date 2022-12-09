@@ -9,4 +9,4 @@
 * 中间件：Mysql、RabbitMQ、Redis、Mongodb、Elasticsearch
 
 [GitHub](https://github.com)
-[Get Started](zh-cn/目录.md)
+[Get Started](zh-cn/docsify安装.md)

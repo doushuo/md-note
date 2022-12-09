@@ -12,14 +12,15 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'docsify',
-      repo: '',
-      coverpage: true,   // 首页
-      loadNavbar: true,  // 默认加载 _navbar.md，作为顶部导航栏
+      name: 'Dou Shuo', // 文档标题，会显示在侧边栏顶部
+      repo: 'https://github.com/ZhiliangMa/easyio-lib-for-esp32', // 右上角Github图标链接
+      loadNavbar: true, // 默认加载 _navbar.md，作为顶部导航栏
       loadSidebar: true, // 默认加载 _sidebar.md，作为侧边栏
-      subMaxLevel: 3,    // 生成目录的最大层级 docsify便会根据目录层数显示标题
+      subMaxLevel: 3, // 生成目录的最大层级
+      coverpage: true,
       search: {
         paths: 'auto',
+        placeholder: '搜索',
         noData: '找不到结果',
         depth: 3,
       },
@@ -32,6 +33,13 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- 一键复制插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!-- 代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-http.min.js"></script>
   <!-- 代码高亮 -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>

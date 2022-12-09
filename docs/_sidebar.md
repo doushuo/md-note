@@ -1,2 +1,3 @@
-* [目录](zh-cn/目录.md)
-* [项目介绍](zh-cn/项目介绍.md)
+
+* 其他
+  * [docsify安装](zh-cn/docsify安装.md)
