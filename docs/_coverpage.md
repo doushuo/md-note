@@ -5,4 +5,4 @@
 * 中间件：Mysql、RabbitMQ、Redis、Mongodb、Elasticsearch
 
 [GitHub](https://github.com/doushuo')
-[Get Started](zh-cn/项目介绍.md)
+[Get Started](README.md)
