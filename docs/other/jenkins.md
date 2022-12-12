@@ -10,6 +10,7 @@ docker pull jenkins/jenkins:lt
 /data/jenkins_home
 ```
 
+
 ### 安装
 
 ```
@@ -22,18 +23,11 @@ docker run -d --name jenkins -p 8081:8080 -v /data/jenkins_home:/var/jenkins_hom
 enkins/jenkins:lts //Jenkins镜像（最新版）
 ```
 
-
-
-解决：
-chown -R 1000:1000 /data/jenkins_home //用户组改变
+解决： chown -R 1000:1000 /data/jenkins_home //用户组改变
 
 访问
 
 http://192.168.1.19:8081/login?from=%2F
-
-
-
-
 
 查看密码
 

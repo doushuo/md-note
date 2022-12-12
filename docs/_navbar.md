@@ -4,4 +4,4 @@
 * Spring
 * 数据库
 * 其他
-  * [其他](othesr/README.md)
+  * [其他](/other/)
